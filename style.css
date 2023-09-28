@@ -10,15 +10,26 @@ font-display: block;
 .title {
   background-image: url("https://zupimages.net/up/23/39/ba96.png");
   height: 200px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  margin: 0 auto; /* Cela centre la div horizontalement */
+  display: flex;
+  align-items: center; /* Centre le contenu verticalement */
+  justify-content: center; /* Centre le contenu horizontalement */
   background-repeat: no-repeat;
   background-position: center center;
 }
 
-
 body {
   background-color: rgb(250, 0, 113)
+}
+
+.subtitle {
+  text-decoration:underline;
+  text-align:center ;
+}
+
+.text {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
