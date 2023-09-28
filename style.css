@@ -12,7 +12,8 @@ font-display: block;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-repeat: no-repeat
+  background-repeat: no-repeat;
+  background-position: center center; /* Cette ligne centre l'image */
 }
 
 body {
