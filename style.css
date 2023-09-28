@@ -25,15 +25,3 @@ font-display: block;
 body {
   background-color: rgb(250, 0, 113)
 }
-
-.subtitle {
-  text-decoration:underline;
-  text-align:center ;
-}
-
-.text {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
