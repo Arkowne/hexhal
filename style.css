@@ -9,19 +9,25 @@ font-display: block;
 .title {
   /* background-image: url("https://zupimages.net/up/23/39/ba96.png"); */
   /* background-position: center; */
-  border: 5px
-  display: block;
+  height: 150px;
+  width: 200px;
+}
+
+display: block;
   margin-left: 400;
   margin-right: auto;
   width: 50%;
 }
+
 body {
   background-color: rgba(251, 121, 179)
 }
+
 .subtitle {
   text-decoration:underline;
   text-align:center ;
 }
+
 .text {
   display: block;
   margin-left: auto;
