@@ -16,9 +16,7 @@ font-display: block;
   transform: translate(-50%, -50%);
   background-repeat: no-repeat;
   background-position: center center;
-
-  /* Ajoutez un dégradé intérieur autour de l'image */
-  box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.5);
 }
 
 
