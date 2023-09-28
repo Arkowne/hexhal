@@ -8,6 +8,7 @@ font-display: block;
 }
 .title {
   background-image: url("https://zupimages.net/up/23/39/ba96.png");
+  background-position: center;
   display: block;
   margin-left: 400;
   margin-right: auto;
