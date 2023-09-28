@@ -12,6 +12,9 @@ font-display: block;
   background-position: center center;
   height: 150px;
   width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 display: block;
