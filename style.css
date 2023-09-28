@@ -8,10 +8,7 @@ font-display: block;
 }
 .title {
   background-image: url("https://zupimages.net/up/23/39/ba96.png");
-  background-repeat:no-repeat;
-  background-position: center center;
-  height: 150px;
-  width: 400px;
+  height: 200px;
   display: flex;
   align-items: center;
   justify-content: center;
