@@ -20,6 +20,7 @@ font-display: block;
   height: 200px;
   margin: 0 auto; /* Cela centre la div horizontalement */
   display: flex;
+  align-items: center; /* Centre le contenu verticalement */
   justify-content: center; /* Centre le contenu horizontalement */
   background-repeat: no-repeat;
   background-position: center center;
