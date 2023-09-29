@@ -1,43 +1,35 @@
 body @font-face {
-font-family: 'Lobster';
-font-style: normal;
-font-weight: 400;
-src: local('Lobster Regular'), local('Lobster-Regular'), url("//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/lobster/v22/neILzCirqoswsqX9zo2mM4MwWJXNqA.woff2") format('woff2');
-unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
-font-display: block;
-}
-.page {
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-  width: 500px;
-  margin: 0 auto;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.title {
-  background-image: url("https://zupimages.net/up/23/39/ba96.png");
-  height: 200px;
-  margin: 0 auto; /* Cela centre la div horizontalement */
-  display: flex;
-  align-items: center; /* Centre le contenu verticalement */
-  justify-content: center; /* Centre le contenu horizontalement */
-  background-repeat: no-repeat;
-  background-position: center center;
-}
+  font-family: 'Lobster';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lobster Regular'), local('Lobster-Regular'), url("//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/lobster/v22/neILzCirqoswsqX9zo2mM4MwWJXNqA.woff2") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+  font-display: block;
+  }
+  .page {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 800px;
+    margin: auto;
 
-body {
-  background-color: rgb(250, 0, 113)
-}
-
-.subtitle {
-  text-decoration:underline;
-  text-align:center ;
-}
-
-.text {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
+  .title {
+    background-image: url("https://zupimages.net/up/23/39/ba96.png");
+    height: 200px;
+    margin: 0 auto; /* Cela centre la div horizontalement */
+    display: flex;
+    justify-content: center; /* Centre le contenu horizontalement */
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  
+  body {
+    background-color: rgb(250, 0, 113)
+  }
+  
+  .subtitle {
+    text-decoration:underline;
+    text-align:center ;
+  }
+  .text{
+    margin-left: 50px;
+    margin-right: 50px;
+  }
