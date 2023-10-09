@@ -17,13 +17,6 @@ body @font-face {
     margin: auto;
 
   .title {
-    background-image: url("https://zupimages.net/up/23/39/ba96.png");
-    height: 200px;
-    margin: 0 auto; /* Cela centre la div horizontalement */
-    display: flex;
-    justify-content: center; /* Centre le contenu horizontalement */
-    background-repeat: no-repeat;
-    background-position: center center;
   }
   
   .subtitle {
@@ -44,4 +37,7 @@ body @font-face {
     background-position: center center;
   }
 
-
+  .image_sujet{
+    justify-content: center; /* Centre le contenu horizontalement *
+  }
+    
