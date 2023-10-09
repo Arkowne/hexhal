@@ -35,4 +35,13 @@ body @font-face {
     margin-right: 150px;
   }
 
+  .image_sujet{
+    height: 200px;
+    margin: 0 auto; /* Cela centre la div horizontalement */
+    display: flex;
+    justify-content: center; /* Centre le contenu horizontalement */
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
 
