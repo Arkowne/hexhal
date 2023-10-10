@@ -17,7 +17,7 @@ body @font-face {
     margin: auto;
 
  .title {
-  background-image: url("https://zupimages.net/up/23/39/ba96.png");
+  background-image: url("img/icon.png");
   height: 200px;
   margin: 0 auto; /* Cela centre la div horizontalement */
   display: flex;
