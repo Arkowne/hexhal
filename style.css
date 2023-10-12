@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
-body{
-    font-family: 'Open Sans', sans-serif;
-    padding: 0;
-    margin: 0;
-    color: rgb(255, 255, 255);
-}
+body @font-face {
+  font-family: 'Lobster';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lobster Regular'), local('Lobster-Regular'), url("//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/lobster/v22/neILzCirqoswsqX9zo2mM4MwWJXNqA.woff2") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+  font-display: block;
+  }
   
   body {
     background-color: rgb(200, 0, 155);
