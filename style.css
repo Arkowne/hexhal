@@ -44,8 +44,7 @@ body @font-face {
     background-repeat: no-repeat;
     background-position: center center;
   }
-
-  .image_sujet{
-    justify-content: center; /* Centre le contenu horizontalement *
-  }
     
+  .footer{
+    background-color: rgb(200, 0, 100);
+  } 
