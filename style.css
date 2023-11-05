@@ -1,8 +1,9 @@
+
+@import url(voidcode.ttf);
 body @font-face {
-  font-family: 'Lobster';
+  font-family: 'voidcode';
   font-style: normal;
   font-weight: 400;
-  src: local('Lobster Regular'), local('Lobster-Regular'), url("//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/lobster/v22/neILzCirqoswsqX9zo2mM4MwWJXNqA.woff2") format('woff2');
   unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
   font-display: block;
   }
