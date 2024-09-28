@@ -1,0 +1,120 @@
+/* Réinitialisation du margin et du padding par défaut */
+
+@font-face {
+    font-family: "Loki Bold";
+    src: url("https://db.onlinewebfonts.com/t/ef0cd64546ab0cd33ff9467d3877bd35.eot");
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("Roboto-Black.ttf");
+}
+
+body {
+    font-family: "Roboto";
+    background-color: #292929;
+    
+}
+
+.navbar {
+    margin-bottom: 20px;
+    z-index: 1; /* Valeur de z-index inférieure */
+    top: 0;
+    left: 0;
+    right:0;
+    width: auto;
+    display: flex; /* Utilisation de Flexbox */
+    justify-content: space-between; /* Espacement entre les éléments */
+    align-items: center; /* Alignement vertical centré */
+    background-color: #232323;
+    padding: 10px 20px; /* Espacement interne */
+    position: fixed; /* Coller en haut */
+    border-color: black;
+}
+
+.navbar button {
+    display: inline-block; /* Affichage en ligne */
+    margin-right: 10px; /* Espacement entre les éléments */
+    padding: 10px; /* Espacement interne des éléments */
+}
+
+.button-connect{
+    background-color: rgb(255, 86, 27) ;
+    border-color: rgb(255, 86, 27);
+    border-radius: 10px;
+    font-size: 1.5em;
+    border-bottom: 0;
+    margin: 10px;
+    border-right: 0;
+    font-family: "Roboto";
+}
+
+.button-connect button:hover{
+    background-color: rgb(255, 255, 255) ;
+}
+
+.buttonlink{
+    margin: 3px;
+}
+
+.txtbutton{
+    margin: 10px;
+    font-size: 1.5em;
+}
+
+.logo img{
+    width: 250px;
+}
+
+.description{
+    height: 500px;
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    margin-left: 100px;
+    margin-right: 100px ;
+
+}
+
+.description p{
+    max-width: 450px;
+    font-size: 1.5em;
+}
+
+.description p{
+    color: white;
+}
+
+.description h3{
+    font-size: 2em;
+    color: white;
+    
+}
+
+.crt-screen{
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.small-image {
+    display: none;
+}
+
+footer{
+    background-color: rgb(21, 21, 21);
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.info {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.info h1 {
+    color: white;
+}

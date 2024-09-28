@@ -1,0 +1,30 @@
+@media (max-width: 650px) {
+    .large-image {
+        display: none;
+    }
+
+    .small-image {
+        display: block;
+    }
+
+    .txtbutton{
+        display: none;
+    }
+    .typewriter{
+        font-size: 1em;
+    }
+    .description{
+        display: flex;
+        flex-direction: column;  /* Aligner les éléments de haut en bas */
+        justify-content: flex-start; /* Aligner en haut (par défaut) */
+    }
+
+}
+
+@media (max-width: 800px){
+    .body-image{
+    max-width: 350px;
+    height: auto;
+    object-fit: contain;
+    }
+}

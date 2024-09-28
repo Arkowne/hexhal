@@ -1,0 +1,87 @@
+@font-face {
+    font-family: "Terminal";
+    src: url(terminal.ttf);
+  }
+
+/* Style général pour la zone CRT */
+       .crt-screen {
+        height: 500px;
+        background: black;
+        display: flex;
+        border: 5px solid #222;
+        padding: 30px;
+        align-items: center; /* Centre verticalement */
+        justify-content: center; /* Centre horizontalement */
+        box-shadow: 0 0 50px rgba(255, 86, 27, 0.3), inset 0 0 80px rgba(0, 255, 0, 0.2);
+        overflow: hidden;
+        filter: brightness(1.2) contrast(1.5) saturate(1.1);
+        color: rgb(255, 86, 27);
+        font-size: 2em;
+        font-family: 'Terminal';
+        text-align: center;
+        transform: scale(1.01); /* Légère distorsion */
+    }
+
+    /* Style pour le contenu avec une légère déformation */
+    .dcontent {
+        animation: wobble 0.15s infinite alternate;
+    }
+
+    /* Scintillements et vibrations */
+    @keyframes wobble {
+        0% { transform: translate(0, 0); }
+        100% { transform: translate(1px, -1px); }
+    }
+
+    /* Simuler les lignes horizontales */
+    .scanlines {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: repeating-linear-gradient(
+            rgba(255, 255, 255, 0.05) 0px,
+            rgba(255, 255, 255, 0.05) 2px,
+            transparent 2px,
+            transparent 4px
+        );
+        pointer-events: none; /* Permet de laisser interagir avec le contenu */
+        z-index: 2;
+        animation: scanlines 0.05s infinite;
+    }
+
+    /* Animer les lignes de balayage */
+    @keyframes scanlines {
+        0% { transform: translateY(0); }
+        100% { transform: translateY(-4px); }
+    }
+
+    /* --------- Texte animé typewriter --------- */
+    /* Style de la boîte typewriter */
+    .typewriter {
+        font-family: 'Terminal';
+        font-size: 2.5em;
+        text-align: center;
+        color: rgb(255, 86, 27);  /* Texte vert pour l'effet CRT */
+        border-right: 2px solid rgba(255, 86, 27, 0.75); /* Curseur clignotant */
+        white-space: nowrap;
+        overflow: hidden;
+        display: inline-block;
+        overflow-wrap: break-word; /* Permet de casser les mots longs */
+        white-space: normal; /* Le texte passe à la ligne automatiquement */
+    }
+
+    /* Curseur clignotant */
+    @keyframes blink {
+        0%, 100% { border-color: transparent; }
+        50% { border-color: rgba(255, 86, 27, 0.75); }
+    }
+
+    
+
+    .typewriter {
+        animation: blink 0.75s step-end infinite;
+        overflow-wrap: break-word; /* Forcer la coupure du mot */
+        word-wrap: break-word; /* Support pour les anciens navigateurs */
+    }
