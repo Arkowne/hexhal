@@ -1,5 +1,5 @@
 const textElement = document.getElementById('text');
-const phrases = ["Sucer Gaspard", "Des IAs pour tous. ", "Pour ecoles et entreprises. ", "Securite, flexibilite, gestion. "];
+const phrases = ["Sucer Gaspard ", "Des IAs pour tous. ", "Pour ecoles et entreprises. ", "Securite, flexibilite, gestion. "];
 let phraseIndex = 0;
 let charIndex = 0;
 let isDeleting = false;
